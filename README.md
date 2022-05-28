@@ -61,17 +61,16 @@ environment you need to:
   ```
 * Move your Google Cloud app credentials JSON file at the top level of the
   repository as `credentials.json`.
-* Create a `slack_tokens.py` file at the top level of the repository, containing
-  `APP` as the Slack app's app token and `BOT` as the Slack app's bot token
-  (both as strings).
+* Create a `slack_tokens.py` file at `bot/`, containing `APP` as the Slack app's
+  app token and `BOT` as the Slack app's bot token (both as strings).
   
 
 ## Running The Bot ##
- To run SmartTime, simply invoke `bot.py` via the Python interpreter in your
+ To run SmartTime, simply invoke `bot/app.py` via the Python interpreter in your
  venv:
  
  ```shell
- python bot.py
+ python bot/app.py
  ```
  
  

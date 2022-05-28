@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
 from typing import List, Tuple
 
-import datetime_utils
-from google_calendar_repo import GoogleCalendarRepository
-from pairwise import pairwise
+from helpers import datetime_utils
+from repos.google_calendar_repo import GoogleCalendarRepository
+from helpers.pairwise import pairwise
 
 
 class CalendarService:

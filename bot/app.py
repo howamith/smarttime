@@ -3,7 +3,7 @@ from datetime import timedelta
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-from calendar_service import CalendarService
+from services.calendar_service import CalendarService
 import slack_tokens
 
 app = App(token=slack_tokens.BOT)
